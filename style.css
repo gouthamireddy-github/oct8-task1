@@ -1,0 +1,47 @@
+.container {
+    width: 500px;
+    /*height: 500px;*/
+    border-width: 2px;
+    border-style: solid;
+}
+.header {
+    height: 100px;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.nav-1,.nav-2 /*group selector: separate by dot*/
+{
+    width: 100px;
+    height: 70px;
+    border-width: 2px;
+    border-style: solid;
+    margin: 10px;
+    display: inline-block;
+}
+.nav-2{
+    margin-left: 200px;
+}
+section{
+    width: 130px;
+    height: 100px;
+    border-width: 2px;
+    border-style: solid;
+    margin: 10px;
+    display: inline-block;
+}
+
+.footer{
+    height: 100px;
+    border-width: 2px;
+    border-style: solid;
+    margin: 10px;
+}
+/* universal selector selects every in written code*/
+* {
+   border-width: 5px !important;
+}
